@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI using Flex</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <style>
+       
+        .main{
+            border: 2px solid black;
+            height: 95vh;
+            width: 90vw;
+            background-color: rgb(184, 175, 175);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-content: space-evenly;
+            
+
+        }
+        [class*="it"]{
+            border: 1px solid black;
+            height: 28vh;
+            width: 25vw;
+            background-color: white;
+        }
+        .it1,.it2,.it3,.it4,.it5,.it6{
+            position: relative;
+            overflow: hidden;
+            
+        }
+        .insta{
+            position: absolute;
+            height: 25%;
+            width: 15%;
+            top: 6px;
+            left: 6px;
+
+        }
+        .ins{
+            position: absolute;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+            
+            left: 75px;
+        }
+        .instades{
+            position: absolute;
+            top: 20px;
+            left: 75px;
+            font-size: small;
+            opacity: 80%;
+
+        }
+        .star1{
+            position: absolute;
+            color: green;
+            left: 75px;
+            top: 30px;
+        }
+        .sen{
+            position: absolute;
+            font-weight: bold;
+            top: 70px;
+            left: 30px;
+            font-size: 0.9em;
+            
+        }
+        .install{
+            position: absolute;
+            font-size: small;
+            top: 170px;
+            left: 5px;
+            
+        }
+        .link{
+            position: absolute;
+            font-size: small;
+            top: 170px;
+            left: 320px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="it1">
+            <img class="insta" src="instapic.jpeg" alt="">
+            <div class="ins">Instagram</div>
+            <div class="instades">Social Media</div>
+            <div class="star1">&#x2605;&#x2605;&#x2605;&#x2605;</div>
+            <div class="sen">People can upload photos or videos to our service and share them.</div>
+            <div class="install">Installed 200 times</div>
+            <a class="link" href="https://www.instagram.com/">View ></a>
+        </div>
+        <div class="it2"> <img class="insta" src="salespic.png" alt="">
+            <label class="ins">SalesForce</label>
+            <span class="instades">Project Management</span>
+            <span class="star1">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</span>
+            <span class="sen">developing products for developers, projects managers and architects.</span>
+            <span class="install">Installed 345 times</span>
+            <a class="link" href="https://www.salesforce.com/in/">View ></a></div>
+        <div class="it3"> <img class="insta" src="xpic.png" alt="">
+            <label class="ins">X</label>
+            <span class="instades">Social Media</span>
+            <span class="star1">&#x2605;&#x2605;&#x2605;&#x2605;</span>
+            <span class="sen">Post content for the world to see and join public conversations.</span>
+            <span class="install">Installed 500 times</span>
+            <a class="link" href="https://twitter.com/?lang=en">View ></a></div>
+        <div class="it4"> <img class="insta" src="whatsapppic.png" alt="">
+            <label class="ins">Whatsapp</label>
+            <span class="instades">Social Media</span>
+            <span class="star1">&#x2605;&#x2605;&#x2605;&#x2605;</span>
+            <span class="sen">It allows users to send text, voice messages and video messages, make voice and video calls, and share images, documents, user locations, and other content.</span>
+            <span class="install">Installed 300 times</span>
+            <a class="link" href="https://www.whatsapp.com/">View ></a></div>
+        <div class="it5"> <img class="insta" src="snap.jpeg" alt="">
+            <label class="ins">SnapChat</label>
+            <span class="instades">Social Media</span>
+            <span class="star1">&#x2605;&#x2605;&#x2605;&#x2605;</span>
+            <span class="sen">Chat, send Snaps, explore Stories & Lenses on desktop, or download the app for mobile! Connect & create with friends, wherever you are.</span>
+            <span class="install">Installed 138 times</span>
+            <a class="link" href="https://www.snapchat.com/">View ></a></div>
+        <div class="it6"> <img class="insta" src="discord.png" alt="">
+            <label class="ins">Discord</label>
+            <span class="instades">Gaming Platform</span>
+            <span class="star1">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</span>
+            <span class="sen">Discord is great for playing games and chilling with friends, or even building a worldwide community. Customize your own space to talk, play, and hang out.</span>
+            <span class="install">Installed 1000 times</span>
+            <a class="link" href="https://discord.com/">View ></a></div>
+    </div>
+</body>
+</html>
